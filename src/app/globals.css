@@ -1,0 +1,513 @@
+body {
+    background-color: rgb(254, 229, 240);
+
+
+}
+
+
+
+.nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: end;
+    padding: 2%;
+    width: 83%;
+
+
+
+
+}
+
+.nav-items a {
+
+    position: relative;
+
+    text-decoration: none;
+    color: black;
+    margin-left: 12%;
+
+
+}
+
+.hero {
+
+    font-size: 10px;
+
+    padding: 15%;
+}
+
+.h2 {
+    font-size: 34px;
+}
+
+.h3 {
+    font-size: 34px;
+    margin-top: -30px;
+}
+
+.para {
+    box-sizing: content-box;
+    font-size: 25px;
+    height: 26%;
+    width: 58%;
+}
+
+.buton {
+    padding: 2%;
+    color: rgb(52, 54, 54);
+    background-color: rgb(228, 145, 166);
+    font-size: 25px;
+    box-shadow: 10px 5px grey;
+
+}
+.buton:hover{
+    background-color: rgb(226, 68, 110);
+    color: aliceblue;
+    
+}
+
+.my-girl {
+    border-radius: 95%;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px -2px #888;
+   
+    
+
+    margin-top: -55%;
+
+}
+
+
+
+.project-1 {
+
+    background-color: aliceblue;
+    width: 27%;
+    font-size: 22px;
+    margin-top: -12%;
+    margin-left: 12%;
+    text-decoration: none;
+    
+    padding: 3%;
+
+
+}
+
+.project-2 {
+
+    background-color: aliceblue;
+    width: 27%;
+    font-size: 22px;
+    margin-top: -29.9%;
+    margin-left: 58%;
+
+    padding: 3%;
+}
+.recent{
+    font-size: 19px;
+        font-family:  sans-serif;
+        margin-left: 13%;
+        margin-top: 0%;
+}
+.feature{
+    font-size: 19px;
+    font-family:  sans-serif;
+    margin-left: 1%;
+    margin-top: -0%;
+    margin-bottom: 4%;
+}
+.view{
+    font-size: 20px;
+    font-family:  sans-serif;
+    color:rgb(226, 68, 110) ;
+    margin-left: 78%;
+    margin-top: -4%;
+    margin-bottom: 7%;
+}
+.project {
+ 
+    box-sizing: content-box;
+    font-size: 22px;
+    justify-content: inline-block;
+    padding: 3%;
+    background-color: rgb(237, 180, 195);
+
+
+
+}
+
+.wrapper {
+
+    margin-left: 450px;
+
+    text-decoration: none;
+
+}
+
+.footer {
+    margin-left: 470px;
+}
+
+.container {
+    margin-left: 10%;
+    margin-top: 10%;
+    
+
+}
+
+.contained-elementd {
+    margin-top: -13%;
+   
+
+    margin-bottom: 14%;
+    font-size: 15px;
+    width: 60%;
+    margin-left: 22%;
+    padding: 2%;
+    border-radius: 15%;
+    height: 13%;
+}
+
+.round {
+    margin-top: -14%;
+
+    margin-bottom: 12%;
+    font-size: 15px;
+    width: 6%;
+    margin-left: 23%;
+    text-align: center;
+    border-radius: 40%;
+
+    background-color: rgb(254, 110, 148);
+
+}
+
+.round-1 {
+    margin-top: -13.5%;
+
+    margin-bottom: 12%;
+    font-size: 15px;
+    width: 10%;
+    margin-left: 26%;
+    text-align: end;
+
+
+
+}
+
+
+
+@media (max-width:720px) {
+    .my-girl {
+        margin-top: 0%;
+    }
+
+    .nav {
+        display: relative;
+        font-size: 19px;
+
+        padding: 3%;
+        width: 50%;
+
+
+
+
+    }
+
+
+    .nav-items a {
+        color: black;
+        margin-left: 25%;
+
+
+
+
+    }
+
+    .hero {
+        font-size: 29px;
+
+        font-weight: 300px;
+        padding: 8%;
+
+
+        position: relative;
+
+
+    }
+
+    .h2 {
+        font-size: 29px;
+    }
+
+    .h3 {
+        font-size: 29px;
+        margin-top: -18%;
+    }
+
+    .para {
+        box-sizing: content-box;
+        font-size: 40px;
+        height: 66%;
+        width: 88%;
+        margin-top: 119%;
+        font-size: 20px;
+        margin-bottom: -10%;
+    }
+
+    .my-girl {
+        border-radius: 85%;
+
+        height: 350px;
+        min-width: 240px;
+
+
+        margin-top: -185%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .buton {
+        padding: 2%;
+        /* color: rgb(52, 54, 54); */
+        background-color: rgb(169, 135, 159);
+        font-size: 25px;
+        margin-top: 5%;
+
+    }
+
+
+
+    .project {
+        box-sizing: content-box;
+        font-size: 13px;
+        justify-content: block;
+        padding: 3%;
+        background-color: rgb(237, 180, 195);
+        margin-top: 90%;
+        width: 100%;
+
+
+
+    }
+
+    .project-1 {
+
+        background-color: aliceblue;
+        width: 79%;
+        font-size: 22px;
+        margin-top: 20%;
+        margin-right: 39%;
+        margin-left: 6%;
+        text-decoration: none;
+       
+        padding: 3%;
+        height: 30%;
+
+
+    }
+
+    .project-2 {
+
+        background-color: aliceblue;
+        width: 59%;
+        font-size: 22px;
+        margin-top: 13%;
+        margin-right: 39%;
+        margin-left: 6%;
+        width: 79%;
+        padding: 3%;
+        height: 30%;
+    }
+
+    .wrapper {
+
+        margin-left: 150px;
+
+        text-decoration: none;
+
+
+    }
+
+    .footer {
+        margin-left: 90px;
+        font-size: 20px;
+        margin-bottom: 8%;
+    }
+
+    .container {
+        margin-left: 10%;
+        margin-top: 14%;margin-bottom: 12%;
+
+    }
+
+    .contained-elementd {
+        margin-top: -0%;
+       
+        margin-bottom: 3%;
+        font-size: 15px;
+        width: 60%;
+        margin-left: 0%;
+        padding: 2%;
+        border-radius: 10%;
+        height: 13%;
+    }
+
+    .round {
+        margin-top: -0%;
+
+        margin-bottom: 8%;
+        font-size: 15px;
+        width: 18%;
+        
+        margin-left: 0%;
+        text-align:center;
+        border-radius: 40%;
+
+        background-color: rgb(254, 110, 148);
+
+    }
+    .round-1{
+        width: 32%;
+        height: 0%;
+    }
+    .view{
+        margin-right: 3%;
+        margin-top: -10%;
+    }
+   
+
+}
+
+@media (min-width:1200px) {
+    .nav {
+        display: flex;
+        font-size: 30px;
+        justify-content: end;
+        padding: 2%;
+        width: 83%;
+
+
+
+
+    }
+
+    .nav-items a {
+
+        position: relative;
+
+        text-decoration: none;
+        color: black;
+        margin-left: 12%;
+
+
+    }
+    .nav-items a:hover{
+        color:  rgb(212, 72, 110);
+        
+    }
+    .hero {
+
+        font-size: 10px;
+        height: 700px;
+        padding: 15%;
+        color: rgb(58, 56, 56);
+    }
+
+    .h2 {
+        font-size: 34px;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       
+    }
+
+    .h3 {
+        font-size: 34px;
+        margin-top: -30px;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .para {
+        box-sizing: content-box;
+        font-size: 25px;
+        height: 26%;
+        width: 58%;
+    }
+
+    .buton {
+        padding: 2%;
+        color: rgb(52, 54, 54);
+        background-color: rgb(254, 110, 148);
+        font-size: 25px;
+
+    }
+    .buton:hover{
+        background-color: rgb(212, 72, 110);
+        color: aliceblue;
+    }
+    
+
+    .my-girl {
+        border-radius: 85%;
+        overflow: hidden;
+        height: 450px;
+        width: 390px;
+        border-color: aqua;
+        margin-top: -68%;
+        margin-left: 64%;
+        margin-bottom: 20%;
+    }
+
+
+
+    .project-1 {
+
+        background-color: aliceblue;
+        width: 27%;
+        font-size: 22px;
+        margin-top:10%;
+        margin-left: 12%;
+        text-decoration: none;
+      
+        padding: 3%;
+        ;
+
+    }
+
+    .project-2 {
+
+        background-color: aliceblue;
+        width: 27%;
+        font-size: 22px;
+        margin-top: -51.1%;
+        margin-bottom: 37px;
+        margin-left: 58%;
+
+        padding: 3%;
+    }
+
+    .project {
+        box-sizing: content-box;
+        font-size: 22px;
+        justify-content: inline-block;
+        padding: 3%;
+        background-color: rgb(237, 180, 195);
+
+
+    }
+
+    .wrapper {
+
+        margin-left: 650px;
+
+        text-decoration: none;
+
+    }
+
+    .footer {
+        margin-left: 575px;
+    }
+}
